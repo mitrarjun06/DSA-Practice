@@ -1,7 +1,6 @@
 class Solution {
   public:
     vector<int> getMinMax(vector<int> &arr) {
-        // code here
         int n=arr.size();
         int max = *max_element(arr.begin(),arr.end());
         int min = *min_element(arr.begin(),arr.end());
